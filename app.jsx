@@ -4,10 +4,12 @@ import { Dashboard } from './components/Dashboard';
 import { Register } from './components/Register';
 
 // --- Mock user data for login ---
+// Mock user data - UPDATE THIS SECTION IN YOUR APP.JSX
 const mockUsers = [
-  { username: "admin", password: "admin123", role: "admin", name: "Admin" },
-  { username: "hr", password: "hr123", role: "hr", name: "HR Officer" },
-  { username: "employee", password: "emp123", role: "employee", name: "Employee" },
+  { username: 'admin', password: 'admin123', role: 'admin', name: 'Admin' },
+  { username: 'hr', password: 'hr123', role: 'hr', name: 'HR Officer' },
+  { username: 'zeel', password: 'zeel', role: 'employee', name: 'Employee' },
+  { username: 'payroll', password: 'payroll123', role: 'payroll', name: 'Payroll Officer' }
 ];
 
 // --- LANDING PAGE ---
